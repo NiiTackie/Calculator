@@ -21,8 +21,13 @@ public class Calc
           result = int1 + int2;
            System.out.println(result);
           }
+
        if (operation == 2 ){
-          result = int1 - int2;
+         result = int1 - int2;
+          System.out.println(result);
+       }
+     if (operation == 3 ){
+          result = int1 * int2;
            System.out.println(result);
           }
   }
