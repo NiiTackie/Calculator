@@ -30,5 +30,10 @@ public class Calc
           result = int1 * int2;
            System.out.println(result);
           }
+	//divide
+	   if (operation == 4 ){
+          result = int1 / int2;
+           System.out.println(result);
+          }
   }
 }
